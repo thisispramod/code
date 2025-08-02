@@ -1,9 +1,11 @@
 <?php 
 
 // Move all zeros to end of the array
+//brute force 
 $arr = [10,0,20,30,0,4,2,0,5,2,0,1];
 $non_zero = [];
 $count = 0;
+//iteration start 
 foreach($arr as $val){
     if($val != 0){
         $non_zero []=$val;
